@@ -10,6 +10,8 @@ async function main() {
     },
   });
   console.log(user);
+  // $ npx ts-node script-01-create.ts
+  // { id: 1, email: 'alice@prisma.io', name: 'Alice' }
 }
 
 main()
